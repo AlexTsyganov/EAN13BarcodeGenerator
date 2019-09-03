@@ -1,16 +1,16 @@
 PODS:
-  - EAN13BarcodeGenerator (0.1.0)
+  - EAN13BarcodeGenerator (0.2.0)
 
 DEPENDENCIES:
-  - EAN13BarcodeGenerator (from `../`)
+  - EAN13BarcodeGenerator (from `../../`)
 
 EXTERNAL SOURCES:
   EAN13BarcodeGenerator:
-    :path: "../"
+    :path: "../../"
 
 SPEC CHECKSUMS:
-  EAN13BarcodeGenerator: 9a3d58ba58306d789561c66248f51cdedfcfd50d
+  EAN13BarcodeGenerator: 12b631a584f1133bed96fa2817a0bacca2925b2f
 
-PODFILE CHECKSUM: 06e5c6ebb96a1e578115aedae22bc32666a49660
+PODFILE CHECKSUM: d56c0663c96d7ad9cdc9cf9322cd4b847a57aad9
 
 COCOAPODS: 1.5.3

@@ -7,265 +7,298 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		095699E806C501A17EAA4661874E483F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908E902E026C5C22904CF9014A5604AD /* Foundation.framework */; };
-		0BBDE7B34AFAB491FE8BFBE496F643B0 /* Pods-EAN13BarcodeGenerator_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AC007575497C31693468EACCA2A271A3 /* Pods-EAN13BarcodeGenerator_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0D598233B72D1746AFB20A4EC9AB2239 /* Pods-EAN13BarcodeGenerator_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 46461294BFE40022269D48F7875EDD31 /* Pods-EAN13BarcodeGenerator_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		10C84BCC539136629E442029B255C413 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908E902E026C5C22904CF9014A5604AD /* Foundation.framework */; };
-		559691D72ADD57757860E7E7946BAA57 /* BarCodeEAN13.m in Sources */ = {isa = PBXBuildFile; fileRef = E3D611E1DC53131AB19E12B036F0319C /* BarCodeEAN13.m */; };
-		5B09D2F5ADF6527285799825D3435262 /* Pods-EAN13BarcodeGenerator_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7967FA29D7BED897B6B7BF8685B5FF59 /* Pods-EAN13BarcodeGenerator_Tests-dummy.m */; };
-		7C04F03AAE56C23EBF1230FA1CE8011D /* BarCodeEAN13.h in Headers */ = {isa = PBXBuildFile; fileRef = 4986AD620AF790BFDA76B0C6608B445E /* BarCodeEAN13.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8E2C28F0467288F7BD4EFB1FF5BAB6F2 /* BarCodeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A9ECB15CA294C6627F400CCE0422ADF /* BarCodeView.m */; };
-		AEF11E401A694B34EFCC6D115976EBE5 /* EAN13BarcodeGenerator-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BC8D15C6ED8D6D66585B3B8F33E10EB7 /* EAN13BarcodeGenerator-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B152341CAFA056F4007EB1BA7E4A4EF2 /* BarCodeView.h in Headers */ = {isa = PBXBuildFile; fileRef = 7FAB5ABD13C303996598F95FB8EED42F /* BarCodeView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B967AA4DB9606ACE44DEF0247341EECA /* Pods-EAN13BarcodeGenerator_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B8C62212D122317B8416956F617779C /* Pods-EAN13BarcodeGenerator_Example-dummy.m */; };
-		D5AEED518B16DA96B926FC126DAA8E9B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC2C02191C153C1554B35DEE8B2D09D4 /* UIKit.framework */; };
-		DB6696C692F9E86DB24B499B81570637 /* EAN13BarcodeGenerator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 66BC10F34E9291F0016F1CC84BF1DC56 /* EAN13BarcodeGenerator-dummy.m */; };
-		EE859EAB453F8FAD5827002AD7A0D4B4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908E902E026C5C22904CF9014A5604AD /* Foundation.framework */; };
+		0706BF150EB5B54ED8B5073BCCC28C65 /* BarCodeEAN13.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F9415D9E34EDF84A28BF4572A4D105F /* BarCodeEAN13.m */; };
+		20C52D62D76E32DC8A9A5F99B6A18220 /* Pods-EAN13BarcodeGenerator_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 35DF7D463AC73209CF96C2A663B08A24 /* Pods-EAN13BarcodeGenerator_Example-dummy.m */; };
+		21D56583C0C898874352CBC7ECAA5362 /* BarCodeView.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CE571240DAFE5B4CDC5A06357C70CE6 /* BarCodeView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		254749FEF58AE93C6F21038D7610AB5E /* Pods-EAN13BarcodeGenerator_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BD4BFF92704736E09ECC4708DAA6A64C /* Pods-EAN13BarcodeGenerator_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		30024FCAED76B86BF629CA04F8D7B147 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
+		487B1E0985FB810AE01AF8E7D3FB2E28 /* Pods-EAN13BarcodeGenerator_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A00232364BEB8624092D83198B70E463 /* Pods-EAN13BarcodeGenerator_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5C993303F14D84FE824E89295E029F86 /* EAN13BarcodeGenerator-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 127EC16B2ABFDAAD21EF94EA28F2797A /* EAN13BarcodeGenerator-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		607AAD425A2BC10C22571F506D074FB9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
+		72154522164CE030DEA57B0CE7D95043 /* EAN13BarcodeGenerator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BBBF03F72D87F62808119380A22244A7 /* EAN13BarcodeGenerator-dummy.m */; };
+		9812BEE1D2205B20A44C3B9CF343BD42 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 312B988EF117AE4DE76A268D970131FE /* UIKit.framework */; };
+		ADF75520B482378B17E1E70AF80E3E27 /* BarCodeEAN13.h in Headers */ = {isa = PBXBuildFile; fileRef = 6DB3993B60AC7008F8DAE6FC50045869 /* BarCodeEAN13.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D3656C703DC72AF42816D7071F687AE3 /* Pods-EAN13BarcodeGenerator_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 170B90B9E0713036C9BDA377634604DC /* Pods-EAN13BarcodeGenerator_Tests-dummy.m */; };
+		D7C2F7BC361DA884915906EEECAA182B /* BarCodeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B06FA2A025D12FAB0BAEB48381375BE /* BarCodeView.m */; };
+		FFD58BFC5851A42E70F88116B973BE6C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		29C91FC3AF550AF7DF44EFCF05A9E793 /* PBXContainerItemProxy */ = {
+		DB36D571A8E88BE23C894A11215EE75C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 0F145E8510D4305D84ACD9EE21B786F9;
-			remoteInfo = EAN13BarcodeGenerator;
-		};
-		F508ADF7B5B0DE41DF5DA9F4C273AD4B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = C14B826917964871B00D575C7FE91E1D;
+			remoteGlobalIDString = 0B68707C3809AA8015AE89FF59FCBADA;
 			remoteInfo = "Pods-EAN13BarcodeGenerator_Example";
+		};
+		F0F75DA3B7329A501F3869A8232D49C2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1AFFDEC0988148FE2E3DEFE3F8718DA5;
+			remoteInfo = EAN13BarcodeGenerator;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		04B7C5C15886A075ADBF7446F77664A2 /* Pods-EAN13BarcodeGenerator_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EAN13BarcodeGenerator_Tests-resources.sh"; sourceTree = "<group>"; };
-		1B8C62212D122317B8416956F617779C /* Pods-EAN13BarcodeGenerator_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EAN13BarcodeGenerator_Example-dummy.m"; sourceTree = "<group>"; };
-		1E5DF731B7E45C67BB6FA2D10EDEB87B /* Pods_EAN13BarcodeGenerator_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EAN13BarcodeGenerator_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		22E139B3EDBD4792F6DDC85EDE7C7D3F /* Pods-EAN13BarcodeGenerator_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EAN13BarcodeGenerator_Example-frameworks.sh"; sourceTree = "<group>"; };
-		231908D268051D0BA75487CE1FBDA604 /* Pods-EAN13BarcodeGenerator_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EAN13BarcodeGenerator_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		352B9BB729A8DA2694AC153CE9FD3D00 /* Pods-EAN13BarcodeGenerator_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EAN13BarcodeGenerator_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		391FFBC7CE972A113ED0DA27D6CC6E3E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3BFCAC4E9BDFE5B8AFD0B0596102398B /* Pods-EAN13BarcodeGenerator_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-EAN13BarcodeGenerator_Tests.modulemap"; sourceTree = "<group>"; };
-		46461294BFE40022269D48F7875EDD31 /* Pods-EAN13BarcodeGenerator_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EAN13BarcodeGenerator_Example-umbrella.h"; sourceTree = "<group>"; };
-		483437F7DE4E58CC52EC5F31DD2228A5 /* Pods-EAN13BarcodeGenerator_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-EAN13BarcodeGenerator_Example.modulemap"; sourceTree = "<group>"; };
-		4986AD620AF790BFDA76B0C6608B445E /* BarCodeEAN13.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BarCodeEAN13.h; path = EAN13BarcodeGenerator/Classes/BarCodeEAN13.h; sourceTree = "<group>"; };
-		4F6A6E749406A2253B47F7A4AC6F6D26 /* EAN13BarcodeGenerator-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EAN13BarcodeGenerator-prefix.pch"; sourceTree = "<group>"; };
-		53657FDC5221982D83A0B1E2AC1951EB /* Pods-EAN13BarcodeGenerator_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EAN13BarcodeGenerator_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		5640917E16A4B4B7DFE66B89242609FF /* EAN13BarcodeGenerator.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EAN13BarcodeGenerator.xcconfig; sourceTree = "<group>"; };
-		5DF68AB795B641674229B32A7A19A0F1 /* Pods-EAN13BarcodeGenerator_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EAN13BarcodeGenerator_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		6502E9ACD7935BAFE34C6B2A40E4FE5B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		66BC10F34E9291F0016F1CC84BF1DC56 /* EAN13BarcodeGenerator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EAN13BarcodeGenerator-dummy.m"; sourceTree = "<group>"; };
-		6AF8309D9BF55BA4CE7E3F572F90BD1B /* Pods-EAN13BarcodeGenerator_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EAN13BarcodeGenerator_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		78944063FD8FB554B0438923FE18E711 /* EAN13BarcodeGenerator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EAN13BarcodeGenerator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		7967FA29D7BED897B6B7BF8685B5FF59 /* Pods-EAN13BarcodeGenerator_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EAN13BarcodeGenerator_Tests-dummy.m"; sourceTree = "<group>"; };
-		7A9ECB15CA294C6627F400CCE0422ADF /* BarCodeView.m */ = {isa = PBXFileReference; includeInIndex = 1; indentWidth = 4; lastKnownFileType = sourcecode.c.objc; name = BarCodeView.m; path = EAN13BarcodeGenerator/Classes/BarCodeView.m; sourceTree = "<group>"; };
-		7FAB5ABD13C303996598F95FB8EED42F /* BarCodeView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BarCodeView.h; path = EAN13BarcodeGenerator/Classes/BarCodeView.h; sourceTree = "<group>"; };
-		8F95ED36FB13AADE7EC68853D9AEB284 /* Pods_EAN13BarcodeGenerator_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EAN13BarcodeGenerator_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		907FFC8DEF93BD656AD7D6133786069C /* Pods-EAN13BarcodeGenerator_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EAN13BarcodeGenerator_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		908E902E026C5C22904CF9014A5604AD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A8A834939A2189588550D61696AA9734 /* Pods-EAN13BarcodeGenerator_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EAN13BarcodeGenerator_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		AC007575497C31693468EACCA2A271A3 /* Pods-EAN13BarcodeGenerator_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EAN13BarcodeGenerator_Tests-umbrella.h"; sourceTree = "<group>"; };
-		AD40445B64B725E509A2BD2B3F97FA2F /* Pods-EAN13BarcodeGenerator_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EAN13BarcodeGenerator_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		B3BC438A46F40953C392A7201189A9D5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BC2C02191C153C1554B35DEE8B2D09D4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		BC8D15C6ED8D6D66585B3B8F33E10EB7 /* EAN13BarcodeGenerator-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EAN13BarcodeGenerator-umbrella.h"; sourceTree = "<group>"; };
-		D449C502C8633C2F7794D7F18C5B1882 /* Pods-EAN13BarcodeGenerator_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EAN13BarcodeGenerator_Example-resources.sh"; sourceTree = "<group>"; };
-		E3D611E1DC53131AB19E12B036F0319C /* BarCodeEAN13.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BarCodeEAN13.m; path = EAN13BarcodeGenerator/Classes/BarCodeEAN13.m; sourceTree = "<group>"; };
-		E945C0BE636C8B82DEECEF2EA9B5B6C3 /* Pods-EAN13BarcodeGenerator_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EAN13BarcodeGenerator_Example.release.xcconfig"; sourceTree = "<group>"; };
-		F368B437F02AC43E895A771D669BEA2B /* EAN13BarcodeGenerator.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = EAN13BarcodeGenerator.modulemap; sourceTree = "<group>"; };
+		094182D52C591C46F26E3CC3FE894737 /* EAN13BarcodeGenerator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = EAN13BarcodeGenerator.framework; path = EAN13BarcodeGenerator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E356FE1547F767C35D18513E2819DF4 /* Pods_EAN13BarcodeGenerator_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_EAN13BarcodeGenerator_Tests.framework; path = "Pods-EAN13BarcodeGenerator_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		127EC16B2ABFDAAD21EF94EA28F2797A /* EAN13BarcodeGenerator-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EAN13BarcodeGenerator-umbrella.h"; sourceTree = "<group>"; };
+		170B90B9E0713036C9BDA377634604DC /* Pods-EAN13BarcodeGenerator_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EAN13BarcodeGenerator_Tests-dummy.m"; sourceTree = "<group>"; };
+		1AE04E0305E50188BB3C56D7E27208FD /* Pods-EAN13BarcodeGenerator_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EAN13BarcodeGenerator_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1CE571240DAFE5B4CDC5A06357C70CE6 /* BarCodeView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BarCodeView.h; path = EAN13BarcodeGenerator/EAN13BarcodeGenerator/Classes/BarCodeView.h; sourceTree = "<group>"; };
+		24390EFD555DD124430DFF9724065945 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		2B06FA2A025D12FAB0BAEB48381375BE /* BarCodeView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BarCodeView.m; path = EAN13BarcodeGenerator/EAN13BarcodeGenerator/Classes/BarCodeView.m; sourceTree = "<group>"; };
+		2BE77988A6F53BDB89B7E59227B349A8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		312B988EF117AE4DE76A268D970131FE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		3297C402CE5272EDB964B6952592473D /* Pods-EAN13BarcodeGenerator_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-EAN13BarcodeGenerator_Tests.modulemap"; sourceTree = "<group>"; };
+		33B6CA6E2D14B1300BF97B438E609BC7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		35DF7D463AC73209CF96C2A663B08A24 /* Pods-EAN13BarcodeGenerator_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EAN13BarcodeGenerator_Example-dummy.m"; sourceTree = "<group>"; };
+		378AD48E138B486EC4DE3B48A1480E71 /* Pods-EAN13BarcodeGenerator_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EAN13BarcodeGenerator_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		38003112822E65C6A799CDD3B61BEFE9 /* Pods-EAN13BarcodeGenerator_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EAN13BarcodeGenerator_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		3F0FF0663035392D2B32F4A2365302D5 /* EAN13BarcodeGenerator-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EAN13BarcodeGenerator-prefix.pch"; sourceTree = "<group>"; };
+		436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		480B1F55E4CC23D522857B9BC8EC4475 /* Pods-EAN13BarcodeGenerator_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EAN13BarcodeGenerator_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		4E47F07C0C7FA383828B2AFF388B538C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B162AEF0F3079228756BCC4E4317096 /* Pods-EAN13BarcodeGenerator_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EAN13BarcodeGenerator_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		6DB3993B60AC7008F8DAE6FC50045869 /* BarCodeEAN13.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BarCodeEAN13.h; path = EAN13BarcodeGenerator/EAN13BarcodeGenerator/Classes/BarCodeEAN13.h; sourceTree = "<group>"; };
+		6F9415D9E34EDF84A28BF4572A4D105F /* BarCodeEAN13.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BarCodeEAN13.m; path = EAN13BarcodeGenerator/EAN13BarcodeGenerator/Classes/BarCodeEAN13.m; sourceTree = "<group>"; };
+		8286C29C8D5271D8CA5DE3A95BFFF90E /* Pods-EAN13BarcodeGenerator_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EAN13BarcodeGenerator_Example.release.xcconfig"; sourceTree = "<group>"; };
+		936FB64D6D5144942882C077A78FF157 /* Pods-EAN13BarcodeGenerator_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EAN13BarcodeGenerator_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		A00232364BEB8624092D83198B70E463 /* Pods-EAN13BarcodeGenerator_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EAN13BarcodeGenerator_Tests-umbrella.h"; sourceTree = "<group>"; };
+		A6E6B927CA1F1B38A97D38217ED40CBB /* Pods_EAN13BarcodeGenerator_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_EAN13BarcodeGenerator_Example.framework; path = "Pods-EAN13BarcodeGenerator_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC71629EDFD820E71E4C4F7FD1D22476 /* EAN13BarcodeGenerator.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = EAN13BarcodeGenerator.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		ADBE36CF7B9C84F8F373973DFAB87415 /* Pods-EAN13BarcodeGenerator_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EAN13BarcodeGenerator_Tests-resources.sh"; sourceTree = "<group>"; };
+		AED5A59CD6C41599CBB0A06CC4D9D425 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0AB24708DD057461283E5DCEED1D769 /* EAN13BarcodeGenerator.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = EAN13BarcodeGenerator.modulemap; sourceTree = "<group>"; };
+		B16D7666F66B68F9D79E19E23B6F9D53 /* Pods-EAN13BarcodeGenerator_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EAN13BarcodeGenerator_Example-resources.sh"; sourceTree = "<group>"; };
+		B32A890DFDDB2C9F37C89312D414DEC7 /* Pods-EAN13BarcodeGenerator_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EAN13BarcodeGenerator_Example-frameworks.sh"; sourceTree = "<group>"; };
+		BBBF03F72D87F62808119380A22244A7 /* EAN13BarcodeGenerator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EAN13BarcodeGenerator-dummy.m"; sourceTree = "<group>"; };
+		BD45A03A7FFFC2052D557028638233A9 /* EAN13BarcodeGenerator.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EAN13BarcodeGenerator.xcconfig; sourceTree = "<group>"; };
+		BD4BFF92704736E09ECC4708DAA6A64C /* Pods-EAN13BarcodeGenerator_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EAN13BarcodeGenerator_Example-umbrella.h"; sourceTree = "<group>"; };
+		CC157239D3C0AF0AC336E5FC26F4A496 /* Pods-EAN13BarcodeGenerator_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EAN13BarcodeGenerator_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		D971FA330288C610737493033A590A86 /* Pods-EAN13BarcodeGenerator_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-EAN13BarcodeGenerator_Example.modulemap"; sourceTree = "<group>"; };
+		E9AA014649FAB2D3E878064DC3DF7C18 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCC5F0D6856CC65447847E68CB4F5A56 /* Pods-EAN13BarcodeGenerator_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EAN13BarcodeGenerator_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		1D5FC9808BC1CC9E65BA0FE04F0CEF46 /* Frameworks */ = {
+		133F1DCBFC14FBD32E992F19491A43D2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				10C84BCC539136629E442029B255C413 /* Foundation.framework in Frameworks */,
+				607AAD425A2BC10C22571F506D074FB9 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4BBB58E66F3BB2A9AEEC5A89160E7086 /* Frameworks */ = {
+		8795C34C0527F6A52004038F219D1BE2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				095699E806C501A17EAA4661874E483F /* Foundation.framework in Frameworks */,
-				D5AEED518B16DA96B926FC126DAA8E9B /* UIKit.framework in Frameworks */,
+				30024FCAED76B86BF629CA04F8D7B147 /* Foundation.framework in Frameworks */,
+				9812BEE1D2205B20A44C3B9CF343BD42 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		684480680AF525D768B7EA517995FEDA /* Frameworks */ = {
+		9489CFB931A0F7054597555EBB78DD5A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EE859EAB453F8FAD5827002AD7A0D4B4 /* Foundation.framework in Frameworks */,
+				FFD58BFC5851A42E70F88116B973BE6C /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		10DEDCB394BAA0C7FEDEBE330207B074 /* iOS */ = {
+		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				908E902E026C5C22904CF9014A5604AD /* Foundation.framework */,
-				BC2C02191C153C1554B35DEE8B2D09D4 /* UIKit.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				10DEDCB394BAA0C7FEDEBE330207B074 /* iOS */,
+				E2983683FD097A93297E2F5D4E382B36 /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		715BDBE5AA33422CDCBF0F097A7E2D30 /* Development Pods */ = {
+		23298B03261367B7F2F16B6AE98E43B2 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				E88AB05960526A8CF677F45C785E13A1 /* EAN13BarcodeGenerator */,
+				7509AEBAF3C609B531AFFE99EF43A04F /* EAN13BarcodeGenerator */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		7DB346D0F39D3F0E887471402A8071AB = {
+		47080DD7403092A5F76D1E1308F5AD46 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				715BDBE5AA33422CDCBF0F097A7E2D30 /* Development Pods */,
-				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
-				DD16CB0E911667D13D1A67F8E822185F /* Products */,
-				F14257D38AF3EE4B586D37FF09D43087 /* Targets Support Files */,
-			);
-			sourceTree = "<group>";
-		};
-		DBE22BBD20E8393C23F8E37A6FF5F810 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				F368B437F02AC43E895A771D669BEA2B /* EAN13BarcodeGenerator.modulemap */,
-				5640917E16A4B4B7DFE66B89242609FF /* EAN13BarcodeGenerator.xcconfig */,
-				66BC10F34E9291F0016F1CC84BF1DC56 /* EAN13BarcodeGenerator-dummy.m */,
-				4F6A6E749406A2253B47F7A4AC6F6D26 /* EAN13BarcodeGenerator-prefix.pch */,
-				BC8D15C6ED8D6D66585B3B8F33E10EB7 /* EAN13BarcodeGenerator-umbrella.h */,
-				B3BC438A46F40953C392A7201189A9D5 /* Info.plist */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/EAN13BarcodeGenerator";
-			sourceTree = "<group>";
-		};
-		DD16CB0E911667D13D1A67F8E822185F /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				78944063FD8FB554B0438923FE18E711 /* EAN13BarcodeGenerator.framework */,
-				1E5DF731B7E45C67BB6FA2D10EDEB87B /* Pods_EAN13BarcodeGenerator_Example.framework */,
-				8F95ED36FB13AADE7EC68853D9AEB284 /* Pods_EAN13BarcodeGenerator_Tests.framework */,
+				094182D52C591C46F26E3CC3FE894737 /* EAN13BarcodeGenerator.framework */,
+				A6E6B927CA1F1B38A97D38217ED40CBB /* Pods_EAN13BarcodeGenerator_Example.framework */,
+				0E356FE1547F767C35D18513E2819DF4 /* Pods_EAN13BarcodeGenerator_Tests.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		E20BA222F56D423E76E023428509FC0D /* Pods-EAN13BarcodeGenerator_Tests */ = {
+		7509AEBAF3C609B531AFFE99EF43A04F /* EAN13BarcodeGenerator */ = {
 			isa = PBXGroup;
 			children = (
-				391FFBC7CE972A113ED0DA27D6CC6E3E /* Info.plist */,
-				3BFCAC4E9BDFE5B8AFD0B0596102398B /* Pods-EAN13BarcodeGenerator_Tests.modulemap */,
-				231908D268051D0BA75487CE1FBDA604 /* Pods-EAN13BarcodeGenerator_Tests-acknowledgements.markdown */,
-				53657FDC5221982D83A0B1E2AC1951EB /* Pods-EAN13BarcodeGenerator_Tests-acknowledgements.plist */,
-				7967FA29D7BED897B6B7BF8685B5FF59 /* Pods-EAN13BarcodeGenerator_Tests-dummy.m */,
-				352B9BB729A8DA2694AC153CE9FD3D00 /* Pods-EAN13BarcodeGenerator_Tests-frameworks.sh */,
-				04B7C5C15886A075ADBF7446F77664A2 /* Pods-EAN13BarcodeGenerator_Tests-resources.sh */,
-				AC007575497C31693468EACCA2A271A3 /* Pods-EAN13BarcodeGenerator_Tests-umbrella.h */,
-				A8A834939A2189588550D61696AA9734 /* Pods-EAN13BarcodeGenerator_Tests.debug.xcconfig */,
-				907FFC8DEF93BD656AD7D6133786069C /* Pods-EAN13BarcodeGenerator_Tests.release.xcconfig */,
-			);
-			name = "Pods-EAN13BarcodeGenerator_Tests";
-			path = "Target Support Files/Pods-EAN13BarcodeGenerator_Tests";
-			sourceTree = "<group>";
-		};
-		E88AB05960526A8CF677F45C785E13A1 /* EAN13BarcodeGenerator */ = {
-			isa = PBXGroup;
-			children = (
-				4986AD620AF790BFDA76B0C6608B445E /* BarCodeEAN13.h */,
-				E3D611E1DC53131AB19E12B036F0319C /* BarCodeEAN13.m */,
-				7FAB5ABD13C303996598F95FB8EED42F /* BarCodeView.h */,
-				7A9ECB15CA294C6627F400CCE0422ADF /* BarCodeView.m */,
-				DBE22BBD20E8393C23F8E37A6FF5F810 /* Support Files */,
+				6DB3993B60AC7008F8DAE6FC50045869 /* BarCodeEAN13.h */,
+				6F9415D9E34EDF84A28BF4572A4D105F /* BarCodeEAN13.m */,
+				1CE571240DAFE5B4CDC5A06357C70CE6 /* BarCodeView.h */,
+				2B06FA2A025D12FAB0BAEB48381375BE /* BarCodeView.m */,
+				987B50619326A0D9C7753D88C5EA99A8 /* Pod */,
+				A6B5B4871A5ECD973D606A568EC542BB /* Support Files */,
 			);
 			name = EAN13BarcodeGenerator;
-			path = ../..;
+			path = ../../..;
 			sourceTree = "<group>";
 		};
-		F14257D38AF3EE4B586D37FF09D43087 /* Targets Support Files */ = {
+		8C7FC4A0B87484081E01992A6CD51DD1 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				FF7413732562EAC143351A572787ECDD /* Pods-EAN13BarcodeGenerator_Example */,
-				E20BA222F56D423E76E023428509FC0D /* Pods-EAN13BarcodeGenerator_Tests */,
+				93DEE824192442CB5A3465A4E2ACADEC /* Pods-EAN13BarcodeGenerator_Example */,
+				A1C5039AF474430EE78D453BF16D448D /* Pods-EAN13BarcodeGenerator_Tests */,
 			);
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		FF7413732562EAC143351A572787ECDD /* Pods-EAN13BarcodeGenerator_Example */ = {
+		93DEE824192442CB5A3465A4E2ACADEC /* Pods-EAN13BarcodeGenerator_Example */ = {
 			isa = PBXGroup;
 			children = (
-				6502E9ACD7935BAFE34C6B2A40E4FE5B /* Info.plist */,
-				483437F7DE4E58CC52EC5F31DD2228A5 /* Pods-EAN13BarcodeGenerator_Example.modulemap */,
-				6AF8309D9BF55BA4CE7E3F572F90BD1B /* Pods-EAN13BarcodeGenerator_Example-acknowledgements.markdown */,
-				5DF68AB795B641674229B32A7A19A0F1 /* Pods-EAN13BarcodeGenerator_Example-acknowledgements.plist */,
-				1B8C62212D122317B8416956F617779C /* Pods-EAN13BarcodeGenerator_Example-dummy.m */,
-				22E139B3EDBD4792F6DDC85EDE7C7D3F /* Pods-EAN13BarcodeGenerator_Example-frameworks.sh */,
-				D449C502C8633C2F7794D7F18C5B1882 /* Pods-EAN13BarcodeGenerator_Example-resources.sh */,
-				46461294BFE40022269D48F7875EDD31 /* Pods-EAN13BarcodeGenerator_Example-umbrella.h */,
-				AD40445B64B725E509A2BD2B3F97FA2F /* Pods-EAN13BarcodeGenerator_Example.debug.xcconfig */,
-				E945C0BE636C8B82DEECEF2EA9B5B6C3 /* Pods-EAN13BarcodeGenerator_Example.release.xcconfig */,
+				E9AA014649FAB2D3E878064DC3DF7C18 /* Info.plist */,
+				D971FA330288C610737493033A590A86 /* Pods-EAN13BarcodeGenerator_Example.modulemap */,
+				378AD48E138B486EC4DE3B48A1480E71 /* Pods-EAN13BarcodeGenerator_Example-acknowledgements.markdown */,
+				CC157239D3C0AF0AC336E5FC26F4A496 /* Pods-EAN13BarcodeGenerator_Example-acknowledgements.plist */,
+				35DF7D463AC73209CF96C2A663B08A24 /* Pods-EAN13BarcodeGenerator_Example-dummy.m */,
+				B32A890DFDDB2C9F37C89312D414DEC7 /* Pods-EAN13BarcodeGenerator_Example-frameworks.sh */,
+				B16D7666F66B68F9D79E19E23B6F9D53 /* Pods-EAN13BarcodeGenerator_Example-resources.sh */,
+				BD4BFF92704736E09ECC4708DAA6A64C /* Pods-EAN13BarcodeGenerator_Example-umbrella.h */,
+				936FB64D6D5144942882C077A78FF157 /* Pods-EAN13BarcodeGenerator_Example.debug.xcconfig */,
+				8286C29C8D5271D8CA5DE3A95BFFF90E /* Pods-EAN13BarcodeGenerator_Example.release.xcconfig */,
 			);
 			name = "Pods-EAN13BarcodeGenerator_Example";
 			path = "Target Support Files/Pods-EAN13BarcodeGenerator_Example";
 			sourceTree = "<group>";
 		};
+		987B50619326A0D9C7753D88C5EA99A8 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				AC71629EDFD820E71E4C4F7FD1D22476 /* EAN13BarcodeGenerator.podspec */,
+				33B6CA6E2D14B1300BF97B438E609BC7 /* LICENSE */,
+				2BE77988A6F53BDB89B7E59227B349A8 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		A1C5039AF474430EE78D453BF16D448D /* Pods-EAN13BarcodeGenerator_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				4E47F07C0C7FA383828B2AFF388B538C /* Info.plist */,
+				3297C402CE5272EDB964B6952592473D /* Pods-EAN13BarcodeGenerator_Tests.modulemap */,
+				1AE04E0305E50188BB3C56D7E27208FD /* Pods-EAN13BarcodeGenerator_Tests-acknowledgements.markdown */,
+				FCC5F0D6856CC65447847E68CB4F5A56 /* Pods-EAN13BarcodeGenerator_Tests-acknowledgements.plist */,
+				170B90B9E0713036C9BDA377634604DC /* Pods-EAN13BarcodeGenerator_Tests-dummy.m */,
+				38003112822E65C6A799CDD3B61BEFE9 /* Pods-EAN13BarcodeGenerator_Tests-frameworks.sh */,
+				ADBE36CF7B9C84F8F373973DFAB87415 /* Pods-EAN13BarcodeGenerator_Tests-resources.sh */,
+				A00232364BEB8624092D83198B70E463 /* Pods-EAN13BarcodeGenerator_Tests-umbrella.h */,
+				480B1F55E4CC23D522857B9BC8EC4475 /* Pods-EAN13BarcodeGenerator_Tests.debug.xcconfig */,
+				5B162AEF0F3079228756BCC4E4317096 /* Pods-EAN13BarcodeGenerator_Tests.release.xcconfig */,
+			);
+			name = "Pods-EAN13BarcodeGenerator_Tests";
+			path = "Target Support Files/Pods-EAN13BarcodeGenerator_Tests";
+			sourceTree = "<group>";
+		};
+		A6B5B4871A5ECD973D606A568EC542BB /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B0AB24708DD057461283E5DCEED1D769 /* EAN13BarcodeGenerator.modulemap */,
+				BD45A03A7FFFC2052D557028638233A9 /* EAN13BarcodeGenerator.xcconfig */,
+				BBBF03F72D87F62808119380A22244A7 /* EAN13BarcodeGenerator-dummy.m */,
+				3F0FF0663035392D2B32F4A2365302D5 /* EAN13BarcodeGenerator-prefix.pch */,
+				127EC16B2ABFDAAD21EF94EA28F2797A /* EAN13BarcodeGenerator-umbrella.h */,
+				AED5A59CD6C41599CBB0A06CC4D9D425 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "EAN13BarcodeGenerator/Example/Pods/Target Support Files/EAN13BarcodeGenerator";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				24390EFD555DD124430DFF9724065945 /* Podfile */,
+				23298B03261367B7F2F16B6AE98E43B2 /* Development Pods */,
+				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
+				47080DD7403092A5F76D1E1308F5AD46 /* Products */,
+				8C7FC4A0B87484081E01992A6CD51DD1 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		E2983683FD097A93297E2F5D4E382B36 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */,
+				312B988EF117AE4DE76A268D970131FE /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		1560F47709081D97DE4B7867FE98D06E /* Headers */ = {
+		1810CCF26F0E299328B170FD908602FD /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0BBDE7B34AFAB491FE8BFBE496F643B0 /* Pods-EAN13BarcodeGenerator_Tests-umbrella.h in Headers */,
+				487B1E0985FB810AE01AF8E7D3FB2E28 /* Pods-EAN13BarcodeGenerator_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		30A7C10F86C2100AA93A5987DCB929F0 /* Headers */ = {
+		52DD0CCA475A3FA19E4F54DFDF428A07 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0D598233B72D1746AFB20A4EC9AB2239 /* Pods-EAN13BarcodeGenerator_Example-umbrella.h in Headers */,
+				254749FEF58AE93C6F21038D7610AB5E /* Pods-EAN13BarcodeGenerator_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		70E6740109311FB31BC237F8EAF38F15 /* Headers */ = {
+		74F9AFFF9CCE4DE2F976DF4D8A93BA90 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7C04F03AAE56C23EBF1230FA1CE8011D /* BarCodeEAN13.h in Headers */,
-				B152341CAFA056F4007EB1BA7E4A4EF2 /* BarCodeView.h in Headers */,
-				AEF11E401A694B34EFCC6D115976EBE5 /* EAN13BarcodeGenerator-umbrella.h in Headers */,
+				ADF75520B482378B17E1E70AF80E3E27 /* BarCodeEAN13.h in Headers */,
+				21D56583C0C898874352CBC7ECAA5362 /* BarCodeView.h in Headers */,
+				5C993303F14D84FE824E89295E029F86 /* EAN13BarcodeGenerator-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		0F145E8510D4305D84ACD9EE21B786F9 /* EAN13BarcodeGenerator */ = {
+		0B68707C3809AA8015AE89FF59FCBADA /* Pods-EAN13BarcodeGenerator_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EB16975B098A856EE61AE732E3B4A2C7 /* Build configuration list for PBXNativeTarget "EAN13BarcodeGenerator" */;
+			buildConfigurationList = F5F795DE6AA8EC7892B0118BA5EA6E85 /* Build configuration list for PBXNativeTarget "Pods-EAN13BarcodeGenerator_Example" */;
 			buildPhases = (
-				70E6740109311FB31BC237F8EAF38F15 /* Headers */,
-				B1A39234BD4DF01265CD9A0A8B77CED8 /* Sources */,
-				4BBB58E66F3BB2A9AEEC5A89160E7086 /* Frameworks */,
-				36543CE2E3D330F4CAC85E5742220542 /* Resources */,
+				52DD0CCA475A3FA19E4F54DFDF428A07 /* Headers */,
+				75584B3A6F2A5EA4AB5DD39EC333CA15 /* Sources */,
+				9489CFB931A0F7054597555EBB78DD5A /* Frameworks */,
+				DBE8BAEB65C3B0700FF867B05FDC810D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				55677B67DFA3A44EB90689C8395A0DB6 /* PBXTargetDependency */,
+			);
+			name = "Pods-EAN13BarcodeGenerator_Example";
+			productName = "Pods-EAN13BarcodeGenerator_Example";
+			productReference = A6E6B927CA1F1B38A97D38217ED40CBB /* Pods_EAN13BarcodeGenerator_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		1AFFDEC0988148FE2E3DEFE3F8718DA5 /* EAN13BarcodeGenerator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B39506D8F7247AF5248D636EF7D9F610 /* Build configuration list for PBXNativeTarget "EAN13BarcodeGenerator" */;
+			buildPhases = (
+				74F9AFFF9CCE4DE2F976DF4D8A93BA90 /* Headers */,
+				B4736883302DEE1CA5B7719EED512D6D /* Sources */,
+				8795C34C0527F6A52004038F219D1BE2 /* Frameworks */,
+				DFCAA2295599FE015BC038D15D0C65B3 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -273,91 +306,72 @@
 			);
 			name = EAN13BarcodeGenerator;
 			productName = EAN13BarcodeGenerator;
-			productReference = 78944063FD8FB554B0438923FE18E711 /* EAN13BarcodeGenerator.framework */;
+			productReference = 094182D52C591C46F26E3CC3FE894737 /* EAN13BarcodeGenerator.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		C14B826917964871B00D575C7FE91E1D /* Pods-EAN13BarcodeGenerator_Example */ = {
+		612989A5E200F75556398BE3E8DEEE56 /* Pods-EAN13BarcodeGenerator_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 406D01510F7DA4633F08B8607508FD77 /* Build configuration list for PBXNativeTarget "Pods-EAN13BarcodeGenerator_Example" */;
+			buildConfigurationList = 96413156CE411A5E34F323FED0DCC8A0 /* Build configuration list for PBXNativeTarget "Pods-EAN13BarcodeGenerator_Tests" */;
 			buildPhases = (
-				30A7C10F86C2100AA93A5987DCB929F0 /* Headers */,
-				444F87E775A9AA97A12B575A54B75F8B /* Sources */,
-				1D5FC9808BC1CC9E65BA0FE04F0CEF46 /* Frameworks */,
-				B923A78648D12A2B6FFE3830E291BCDC /* Resources */,
+				1810CCF26F0E299328B170FD908602FD /* Headers */,
+				BA2ACB6869207B3AA7A9BF31820E3233 /* Sources */,
+				133F1DCBFC14FBD32E992F19491A43D2 /* Frameworks */,
+				A088DE49FDFB08B1D60B4E86851FA055 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				DFE9E537B7849C3D7667F86A68F9A77E /* PBXTargetDependency */,
-			);
-			name = "Pods-EAN13BarcodeGenerator_Example";
-			productName = "Pods-EAN13BarcodeGenerator_Example";
-			productReference = 1E5DF731B7E45C67BB6FA2D10EDEB87B /* Pods_EAN13BarcodeGenerator_Example.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		F60E4AB0F0DFAE58651B2C727562A0D7 /* Pods-EAN13BarcodeGenerator_Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 0027F174B8667FFB2131F383276FA767 /* Build configuration list for PBXNativeTarget "Pods-EAN13BarcodeGenerator_Tests" */;
-			buildPhases = (
-				1560F47709081D97DE4B7867FE98D06E /* Headers */,
-				05B943D039B2FA4D7EAB2EA024FB19F4 /* Sources */,
-				684480680AF525D768B7EA517995FEDA /* Frameworks */,
-				052F0712EAA1ECEBE320D0C73516F114 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				2F7656279D8EE104485C158027FF8F6C /* PBXTargetDependency */,
+				E50153C9EF14804016EC61FF5203855F /* PBXTargetDependency */,
 			);
 			name = "Pods-EAN13BarcodeGenerator_Tests";
 			productName = "Pods-EAN13BarcodeGenerator_Tests";
-			productReference = 8F95ED36FB13AADE7EC68853D9AEB284 /* Pods_EAN13BarcodeGenerator_Tests.framework */;
+			productReference = 0E356FE1547F767C35D18513E2819DF4 /* Pods_EAN13BarcodeGenerator_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0930;
-				LastUpgradeCheck = 0930;
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
 			};
-			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = DD16CB0E911667D13D1A67F8E822185F /* Products */;
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 47080DD7403092A5F76D1E1308F5AD46 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0F145E8510D4305D84ACD9EE21B786F9 /* EAN13BarcodeGenerator */,
-				C14B826917964871B00D575C7FE91E1D /* Pods-EAN13BarcodeGenerator_Example */,
-				F60E4AB0F0DFAE58651B2C727562A0D7 /* Pods-EAN13BarcodeGenerator_Tests */,
+				1AFFDEC0988148FE2E3DEFE3F8718DA5 /* EAN13BarcodeGenerator */,
+				0B68707C3809AA8015AE89FF59FCBADA /* Pods-EAN13BarcodeGenerator_Example */,
+				612989A5E200F75556398BE3E8DEEE56 /* Pods-EAN13BarcodeGenerator_Tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		052F0712EAA1ECEBE320D0C73516F114 /* Resources */ = {
+		A088DE49FDFB08B1D60B4E86851FA055 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		36543CE2E3D330F4CAC85E5742220542 /* Resources */ = {
+		DBE8BAEB65C3B0700FF867B05FDC810D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B923A78648D12A2B6FFE3830E291BCDC /* Resources */ = {
+		DFCAA2295599FE015BC038D15D0C65B3 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -367,114 +381,53 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		05B943D039B2FA4D7EAB2EA024FB19F4 /* Sources */ = {
+		75584B3A6F2A5EA4AB5DD39EC333CA15 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5B09D2F5ADF6527285799825D3435262 /* Pods-EAN13BarcodeGenerator_Tests-dummy.m in Sources */,
+				20C52D62D76E32DC8A9A5F99B6A18220 /* Pods-EAN13BarcodeGenerator_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		444F87E775A9AA97A12B575A54B75F8B /* Sources */ = {
+		B4736883302DEE1CA5B7719EED512D6D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B967AA4DB9606ACE44DEF0247341EECA /* Pods-EAN13BarcodeGenerator_Example-dummy.m in Sources */,
+				0706BF150EB5B54ED8B5073BCCC28C65 /* BarCodeEAN13.m in Sources */,
+				D7C2F7BC361DA884915906EEECAA182B /* BarCodeView.m in Sources */,
+				72154522164CE030DEA57B0CE7D95043 /* EAN13BarcodeGenerator-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B1A39234BD4DF01265CD9A0A8B77CED8 /* Sources */ = {
+		BA2ACB6869207B3AA7A9BF31820E3233 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				559691D72ADD57757860E7E7946BAA57 /* BarCodeEAN13.m in Sources */,
-				8E2C28F0467288F7BD4EFB1FF5BAB6F2 /* BarCodeView.m in Sources */,
-				DB6696C692F9E86DB24B499B81570637 /* EAN13BarcodeGenerator-dummy.m in Sources */,
+				D3656C703DC72AF42816D7071F687AE3 /* Pods-EAN13BarcodeGenerator_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		2F7656279D8EE104485C158027FF8F6C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-EAN13BarcodeGenerator_Example";
-			target = C14B826917964871B00D575C7FE91E1D /* Pods-EAN13BarcodeGenerator_Example */;
-			targetProxy = F508ADF7B5B0DE41DF5DA9F4C273AD4B /* PBXContainerItemProxy */;
-		};
-		DFE9E537B7849C3D7667F86A68F9A77E /* PBXTargetDependency */ = {
+		55677B67DFA3A44EB90689C8395A0DB6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = EAN13BarcodeGenerator;
-			target = 0F145E8510D4305D84ACD9EE21B786F9 /* EAN13BarcodeGenerator */;
-			targetProxy = 29C91FC3AF550AF7DF44EFCF05A9E793 /* PBXContainerItemProxy */;
+			target = 1AFFDEC0988148FE2E3DEFE3F8718DA5 /* EAN13BarcodeGenerator */;
+			targetProxy = F0F75DA3B7329A501F3869A8232D49C2 /* PBXContainerItemProxy */;
+		};
+		E50153C9EF14804016EC61FF5203855F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-EAN13BarcodeGenerator_Example";
+			target = 0B68707C3809AA8015AE89FF59FCBADA /* Pods-EAN13BarcodeGenerator_Example */;
+			targetProxy = DB36D571A8E88BE23C894A11215EE75C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		1F63993F742DCFB25D6935EA0EA4CC13 /* Release */ = {
+		10E6AA26AB9F3EBBAF83BB3FF3977254 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5640917E16A4B4B7DFE66B89242609FF /* EAN13BarcodeGenerator.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/EAN13BarcodeGenerator/EAN13BarcodeGenerator-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/EAN13BarcodeGenerator/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/EAN13BarcodeGenerator/EAN13BarcodeGenerator.modulemap";
-				PRODUCT_MODULE_NAME = EAN13BarcodeGenerator;
-				PRODUCT_NAME = EAN13BarcodeGenerator;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		60518B7F33D686C1003483AA48337DFD /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5640917E16A4B4B7DFE66B89242609FF /* EAN13BarcodeGenerator.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/EAN13BarcodeGenerator/EAN13BarcodeGenerator-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/EAN13BarcodeGenerator/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/EAN13BarcodeGenerator/EAN13BarcodeGenerator.modulemap";
-				PRODUCT_MODULE_NAME = EAN13BarcodeGenerator;
-				PRODUCT_NAME = EAN13BarcodeGenerator;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		8C2535FD6B25B40F9935FF61BB2400FE /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = AD40445B64B725E509A2BD2B3F97FA2F /* Pods-EAN13BarcodeGenerator_Example.debug.xcconfig */;
+			baseConfigurationReference = 5B162AEF0F3079228756BCC4E4317096 /* Pods-EAN13BarcodeGenerator_Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -486,12 +439,12 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-EAN13BarcodeGenerator_Example/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-EAN13BarcodeGenerator_Tests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-EAN13BarcodeGenerator_Example/Pods-EAN13BarcodeGenerator_Example.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-EAN13BarcodeGenerator_Tests/Pods-EAN13BarcodeGenerator_Tests.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -500,12 +453,13 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
-		96434B6C8FF320C976A10DAD7174A4BB /* Release */ = {
+		3E1E8F4C5B356DDEEC76DDFDC606DC85 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -560,13 +514,47 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
 		};
-		A7B68E78C69F73DFD07100EBC911E5B3 /* Debug */ = {
+		4CB1586AA79A60D5E2FDB12DEC04915E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A8A834939A2189588550D61696AA9734 /* Pods-EAN13BarcodeGenerator_Tests.debug.xcconfig */;
+			baseConfigurationReference = BD45A03A7FFFC2052D557028638233A9 /* EAN13BarcodeGenerator.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/EAN13BarcodeGenerator/EAN13BarcodeGenerator-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/EAN13BarcodeGenerator/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/EAN13BarcodeGenerator/EAN13BarcodeGenerator.modulemap";
+				PRODUCT_MODULE_NAME = EAN13BarcodeGenerator;
+				PRODUCT_NAME = EAN13BarcodeGenerator;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5200D1E5257051B415FA5A1A3CA3A811 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 480B1F55E4CC23D522857B9BC8EC4475 /* Pods-EAN13BarcodeGenerator_Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -597,7 +585,7 @@
 			};
 			name = Debug;
 		};
-		D11C82AF2204B41B80412B8DC9C1D652 /* Debug */ = {
+		62780A8B4B44B3DFA98345371325579F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -657,47 +645,15 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		D8A1AA0C0D54B32D272476490F275802 /* Release */ = {
+		9765E2BF53B78D019C502EA9BBC4AEDE /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 907FFC8DEF93BD656AD7D6133786069C /* Pods-EAN13BarcodeGenerator_Tests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-EAN13BarcodeGenerator_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-EAN13BarcodeGenerator_Tests/Pods-EAN13BarcodeGenerator_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		DAA5B6693B2ACA3FF9CF1796C10F6291 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E945C0BE636C8B82DEECEF2EA9B5B6C3 /* Pods-EAN13BarcodeGenerator_Example.release.xcconfig */;
+			baseConfigurationReference = 8286C29C8D5271D8CA5DE3A95BFFF90E /* Pods-EAN13BarcodeGenerator_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -729,46 +685,111 @@
 			};
 			name = Release;
 		};
+		F8B67A1A1F47D77A0D98F5B575580A24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD45A03A7FFFC2052D557028638233A9 /* EAN13BarcodeGenerator.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/EAN13BarcodeGenerator/EAN13BarcodeGenerator-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/EAN13BarcodeGenerator/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/EAN13BarcodeGenerator/EAN13BarcodeGenerator.modulemap";
+				PRODUCT_MODULE_NAME = EAN13BarcodeGenerator;
+				PRODUCT_NAME = EAN13BarcodeGenerator;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F8CBF3695DE7893AD40DBECC6F50727B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 936FB64D6D5144942882C077A78FF157 /* Pods-EAN13BarcodeGenerator_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-EAN13BarcodeGenerator_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EAN13BarcodeGenerator_Example/Pods-EAN13BarcodeGenerator_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0027F174B8667FFB2131F383276FA767 /* Build configuration list for PBXNativeTarget "Pods-EAN13BarcodeGenerator_Tests" */ = {
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A7B68E78C69F73DFD07100EBC911E5B3 /* Debug */,
-				D8A1AA0C0D54B32D272476490F275802 /* Release */,
+				62780A8B4B44B3DFA98345371325579F /* Debug */,
+				3E1E8F4C5B356DDEEC76DDFDC606DC85 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+		96413156CE411A5E34F323FED0DCC8A0 /* Build configuration list for PBXNativeTarget "Pods-EAN13BarcodeGenerator_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D11C82AF2204B41B80412B8DC9C1D652 /* Debug */,
-				96434B6C8FF320C976A10DAD7174A4BB /* Release */,
+				5200D1E5257051B415FA5A1A3CA3A811 /* Debug */,
+				10E6AA26AB9F3EBBAF83BB3FF3977254 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		406D01510F7DA4633F08B8607508FD77 /* Build configuration list for PBXNativeTarget "Pods-EAN13BarcodeGenerator_Example" */ = {
+		B39506D8F7247AF5248D636EF7D9F610 /* Build configuration list for PBXNativeTarget "EAN13BarcodeGenerator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8C2535FD6B25B40F9935FF61BB2400FE /* Debug */,
-				DAA5B6693B2ACA3FF9CF1796C10F6291 /* Release */,
+				4CB1586AA79A60D5E2FDB12DEC04915E /* Debug */,
+				F8B67A1A1F47D77A0D98F5B575580A24 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EB16975B098A856EE61AE732E3B4A2C7 /* Build configuration list for PBXNativeTarget "EAN13BarcodeGenerator" */ = {
+		F5F795DE6AA8EC7892B0118BA5EA6E85 /* Build configuration list for PBXNativeTarget "Pods-EAN13BarcodeGenerator_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				60518B7F33D686C1003483AA48337DFD /* Debug */,
-				1F63993F742DCFB25D6935EA0EA4CC13 /* Release */,
+				F8CBF3695DE7893AD40DBECC6F50727B /* Debug */,
+				9765E2BF53B78D019C502EA9BBC4AEDE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 }

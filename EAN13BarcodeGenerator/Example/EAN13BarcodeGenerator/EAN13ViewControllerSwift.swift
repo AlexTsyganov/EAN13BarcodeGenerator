@@ -10,15 +10,19 @@ import UIKit
 import EAN13BarcodeGenerator
 
 class EAN13ViewControllerSwift: UIViewController {
+    var barCodeView: BarCodeView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        let barCodeView = BarCodeView(frame: CGRect(x: 103.0, y: 155.0, width: 350.0, height: 100.0))
+        barCodeView = BarCodeView(frame: CGRect(x: 20.0, y: 155.0, width: 200.0, height: 100.0))
         view.addSubview(barCodeView)
         barCodeView.barCode = GetNewRandomEAN13BarCode()
     }
-    
+
+    @IBAction func newBarcodePressed() {
+        barCodeView.barCode = GetNewRandomEAN13BarCode()
+    }
 
     /*
     // MARK: - Navigation

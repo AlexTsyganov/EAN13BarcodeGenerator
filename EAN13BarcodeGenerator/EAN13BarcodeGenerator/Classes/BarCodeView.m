@@ -120,6 +120,7 @@ static const NSInteger kTotlaBarCodeLength = 113; //never change this
     
 //   stroke numbers if needed
     if (self.shouldShowNumbers) {
+        CGContextMoveToPoint(context, 0.0f, 0.0f);
         NSDictionary *stringAttrs = @{
                                       NSFontAttributeName : self.font,
                                       NSForegroundColorAttributeName : self.drawableColor,
