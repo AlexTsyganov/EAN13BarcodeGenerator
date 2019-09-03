@@ -15,9 +15,9 @@ class EAN13ViewControllerSwift: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        barCodeView = BarCodeView(frame: CGRect(x: 20.0, y: 155.0, width: 200.0, height: 100.0))
+        barCodeView = BarCodeView(frame: CGRect(x: 20.0, y: 155.0, width: 350.0, height: 100.0))
         view.addSubview(barCodeView)
-        barCodeView.barCode = GetNewRandomEAN13BarCode()
+        barCodeView.barCode = "2036759580362"
     }
 
     @IBAction func newBarcodePressed() {

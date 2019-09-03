@@ -120,7 +120,6 @@ static const NSInteger kTotlaBarCodeLength = 113; //never change this
     
 //   stroke numbers if needed
     if (self.shouldShowNumbers) {
-        CGContextMoveToPoint(context, 0.0f, 0.0f);
         NSDictionary *stringAttrs = @{
                                       NSFontAttributeName : self.font,
                                       NSForegroundColorAttributeName : self.drawableColor,
@@ -141,23 +140,24 @@ static const NSInteger kTotlaBarCodeLength = 113; //never change this
         
         CGFloat height = self.font.lineHeight;
         CGFloat originY = rect.size.height - height;
-
+        
 //      draw first digit
         NSAttributedString *firstDigitOfBarCode = [[NSAttributedString alloc] initWithString:self.firstDigitOfBarCode attributes:rightAligned];
         CGRect firstDigitRect = CGRectMake(0, originY, lineWidth * 8, height);
         [self drawFilledBackgroundRect:firstDigitRect inContext:context];
         [self.drawableColor set];
         [firstDigitOfBarCode drawInRect:firstDigitRect];
+
 //      draw manufacture code
         NSAttributedString *manufactureCode = [[NSAttributedString alloc] initWithString:self.manufactureCode attributes:centerAligned];
-        CGRect manufactureRect = CGRectMake(lineWidth * 4, originY, lineWidth * 60, height);
+        CGRect manufactureRect = CGRectMake(CGRectGetMaxX(firstDigitRect) + lineWidth * 4, originY, lineWidth * 42, height);
         [self drawFilledBackgroundRect:manufactureRect inContext:context];
         [self.drawableColor set];
         [manufactureCode drawInRect:manufactureRect];
         
 //      draw product code with checksum
         NSAttributedString *productCode = [[NSAttributedString alloc] initWithString:[NSString stringWithFormat:@"%@%@", [self productCode], [self checkSum]] attributes:centerAligned];
-        CGRect productCodeRect = CGRectMake(lineWidth * 55, originY, lineWidth * 45, height);
+        CGRect productCodeRect = CGRectMake(CGRectGetMaxX(manufactureRect) + lineWidth * 4, originY, lineWidth * 42, height);
         [self drawFilledBackgroundRect:productCodeRect inContext:context];
         [self.drawableColor set];
         [productCode drawInRect:productCodeRect];
@@ -165,8 +165,10 @@ static const NSInteger kTotlaBarCodeLength = 113; //never change this
 }
 -(void)drawFilledBackgroundRect:(CGRect)rect inContext:(CGContextRef)context {
     const CGFloat *colors = CGColorGetComponents(self.bgColor.CGColor);
-    CGContextSetRGBFillColor(context, colors[0], colors[1], colors[2], colors[3]);
-    CGContextSetRGBStrokeColor(context, colors[0], colors[1], colors[2], colors[3]);
+    CGContextSetFillColor(context, colors);
+    CGContextSetStrokeColor(context, colors);
+//    CGContextSetRGBFillColor(context, colors[0], colors[1], colors[2], colors[3]);
+//    CGContextSetRGBStrokeColor(context, colors[0], colors[1], colors[2], colors[3]);
     CGContextFillRect(context, rect);
 }
 -(NSString*)firstDigitOfBarCode
